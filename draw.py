@@ -1,10 +1,10 @@
 import cv2 as cv 
 import numpy as np
-
-#Now there are two ways, we can draw on images by actually
-#drawing on stand alone images like this image of a cat
-#or we can create a dummy image or a blank image to work with.
-
+"""
+Now there are two ways, we can draw on images by actually
+drawing on stand alone images like this image of a cat
+or we can create a dummy image or a blank image to work with.
+"""
 #datatype of an image is 'uint8'
 #(500,500,3) = (height, width, number of colour channel)
 blank = np.zeros((500,500,3), dtype='uint8')
